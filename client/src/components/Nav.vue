@@ -2,7 +2,7 @@
     <nav class="navbar is-primary is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="container">
             <div class="navbar-brand">
-                <a class="navbar-item" href="/">
+                <a class="navbar-item" :href="homeUrl">
                     <img src="../assets/logo.png" width="28" height="28">
                 </a>
 
@@ -55,6 +55,7 @@ export default {
     name: 'Nav',
     data() {
         return {
+            homeUrl: `${process.env.BASE_URL}`,
             resumeUrl: `${process.env.BASE_URL}doc/resume.pdf`,
             isActive: false,
         };
