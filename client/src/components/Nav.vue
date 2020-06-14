@@ -55,7 +55,7 @@ export default {
     name: 'Nav',
     data() {
         return {
-            resumeUrl: `${process.env.VUE_APP_BASE_URL}/uploads/resume.pdf`,
+            resumeUrl: `${process.env.BASE_URL}doc/resume.pdf`,
             isActive: false,
         };
     },

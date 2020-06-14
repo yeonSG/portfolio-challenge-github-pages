@@ -6,7 +6,7 @@ const work = {
             {
                 id: 1,
                 content: {
-                    image: '/uploads/work-image.png',
+                    image: `${process.env.BASE_URL}img/work-image.png`,
                     title: 'Example A',
                     subtitle: 'Example A Subtitle',
                     content: '<p>Curabitur accumsan turpis pharetra <strong>augue tincidunt</strong> blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.</p>',
@@ -21,7 +21,7 @@ const work = {
             {
                 id: 2,
                 content: {
-                    image: '/uploads/work-image.png',
+                    image: `${process.env.BASE_URL}img/work-image.png`,
                     title: 'Example B',
                     subtitle: 'Example B Subtitle',
                     content: '<p>Curabitur accumsan turpis pharetra <strong>augue tincidunt</strong> blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.</p>',
@@ -36,7 +36,7 @@ const work = {
             {
                 id: 3,
                 content: {
-                    image: '/uploads/work-image.png',
+                    image: `${process.env.BASE_URL}img/work-image.png`,
                     title: 'Example C',
                     subtitle: 'Example C Subtitle',
                     content: '<p>Curabitur accumsan turpis pharetra <strong>augue tincidunt</strong> blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.</p>',
@@ -52,7 +52,7 @@ const work = {
             {
                 id: 4,
                 content: {
-                    image: '/uploads/work-image.png',
+                    image: `${process.env.BASE_URL}img/work-image.png`,
                     title: 'Example D',
                     subtitle: 'Example D Subtitle',
                     content: '<p>Curabitur accumsan turpis pharetra <strong>augue tincidunt</strong> blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.</p>',
@@ -69,7 +69,7 @@ const work = {
             {
                 id: 5,
                 content: {
-                    image: '/uploads/work-image.png',
+                    image: `${process.env.BASE_URL}img/work-image.png`,
                     title: 'Example E',
                     subtitle: 'Example E Subtitle',
                     content: '<p>Curabitur accumsan turpis pharetra <strong>augue tincidunt</strong> blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.</p>',
@@ -84,7 +84,7 @@ const work = {
             {
                 id: 6,
                 content: {
-                    image: '/uploads/work-image.png',
+                    image: `${process.env.BASE_URL}img/work-image.png`,
                     title: 'Example F',
                     subtitle: 'Example F Subtitle',
                     content: '<p>Curabitur accumsan turpis pharetra <strong>augue tincidunt</strong> blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.</p>',
@@ -99,7 +99,7 @@ const work = {
             {
                 id: 7,
                 content: {
-                    image: '/uploads/work-image.png',
+                    image: `${process.env.BASE_URL}img/work-image.png`,
                     title: 'Example G',
                     subtitle: 'Example G Subtitle',
                     content: '<p>Curabitur accumsan turpis pharetra <strong>augue tincidunt</strong> blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.</p>',
