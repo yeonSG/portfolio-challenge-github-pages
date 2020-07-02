@@ -1,4 +1,5 @@
-test for git 123
+test for git 123 
+Test : branch -> merge -> release 
 
 # github-pages로 포트폴리오 사이트 서비스하기
 ## 샘플 사이트
